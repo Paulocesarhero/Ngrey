@@ -67,13 +67,7 @@
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); /* Ajusta la opacidad según tus necesidades */
 }
 
-/* Custom Background */
-.custom-background {
-    background-size: cover;
-    background-position: center;
-    color: white;
-    height: 60rem;
-}
+
 
 /* Adjustments for Carousel Images */
 .carousel-item img {
