@@ -16,61 +16,17 @@
 }
 
 
-
-/* Carousel Styles */
-.carousel {
-    margin-bottom: 400rem;
-}
-
-.carousel-caption {
-    z-index: 10;
-    position: absolute;
-    top: 50%;
-    bottom: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    height: fit-content;
-    width: fit-content;
-}
-
-.carousel-inner img {
-    width: 30%;
-    height: auto;
-}
-
-/* Declare heights because of positioning of img element */
 .carousel-item {
     height: 90vh;
     align-items: center;
+    color: violet; /* Degradado de izquierda a derecha */
+
+
 }
 
 .carousel-item img {
     max-height: 100vh;
     object-fit: cover;
-}
-
-.carousel-caption h1,
-.carousel-caption h2,
-.carousel-caption p {
-    color: white;
-}
-
-.carousel-caption .Caracteristicas li {
-    color: black; /* Cambia "black" al color que desees */
-}
-
-.carousel-overlay {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); /* Ajusta la opacidad según tus necesidades */
-}
-
-
-
-/* Adjustments for Carousel Images */
-.carousel-item img {
     height: 100%;
     width: 100%;
 }
