@@ -19,6 +19,8 @@
 .carousel-item {
     height: 90vh;
     align-items: center;
+    color: violet; /* Degradado de izquierda a derecha */
+
 
 }
 
@@ -27,9 +29,7 @@
     object-fit: cover;
     height: 100%;
     width: 100%;
-
 }
-
 .bg-image-estudiosEsctructurales {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://live.staticflickr.com/65535/53876460501_243c137aa2_b.jpg ');
     background-size: cover;
