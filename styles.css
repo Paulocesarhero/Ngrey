@@ -80,3 +80,28 @@
     background-position: center;
     color: white;
 }
+
+.navbar{
+    background: linear-gradient(to right, #100101, #357e1c); /* Degradado de izquierda a derecha */
+
+}
+#Trabajos{
+    padding-top: 80px;
+}
+#Servicios{
+    padding-top: 80px;
+}
+#Servicios{
+    padding-top: 80px;
+}
+#Organigrama{
+    padding-top: 80px;
+}
+#Contacto{
+    padding-top: 80px;
+}
+#Contacto{
+    background: linear-gradient(to right, #100101, #357e1c); /* Degradado de izquierda a derecha */
+    height: 90vh;
+
+}
