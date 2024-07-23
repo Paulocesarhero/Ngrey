@@ -15,9 +15,6 @@
     color: #fff;
 }
 
-
-
-
 .carousel-caption {
     z-index: 10;
     position: absolute;
@@ -30,7 +27,7 @@
 }
 
 .carousel-inner img {
-    width: 30%;
+    width: 100%;
     height: auto;
 }
 
