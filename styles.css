@@ -15,39 +15,21 @@
     color: #fff;
 }
 
-.carousel-caption {
-    z-index: 10;
-    position: absolute;
-    top: 50%;
-    bottom: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    height: fit-content;
-    width: fit-content;
-}
 
-.carousel-inner img {
-    width: 100%;
-    height: auto;
-}
-
-/* Declare heights because of positioning of img element */
 .carousel-item {
     height: 90vh;
     align-items: center;
+
 }
 
 .carousel-item img {
     max-height: 100vh;
     object-fit: cover;
-}
-
-
-/* Adjustments for Carousel Images */
-.carousel-item img {
     height: 100%;
     width: 100%;
+
 }
+
 .bg-image-estudiosEsctructurales {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://live.staticflickr.com/65535/53876460501_243c137aa2_b.jpg ');
     background-size: cover;
